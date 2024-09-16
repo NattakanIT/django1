@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>about</h1>
+<p>Welcome to project<p>      
+<ul>
+        {% for x in mymembers %}
+            <li>{{ x.firstname }} {{ x.lastname }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
